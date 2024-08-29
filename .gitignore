@@ -1,0 +1,5 @@
+# Ignorer le dossier .venv
+.venv/
+
+# Ignorer le fichier ou dossier test_django
+test_django/

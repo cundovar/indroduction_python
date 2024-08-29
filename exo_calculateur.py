@@ -4,6 +4,7 @@
 def calculer_moyenne(notes):
     if len(notes)==0 :
         return 0
+    #calcule moyenne : somme des notes et longueur de notes
     return sum(notes)/len(notes)
 
 def saisir_notes():
@@ -27,3 +28,5 @@ def afficher_moyenne(moyenne):
 notes=saisir_notes()
 moyenne=calculer_moyenne(notes)
 afficher_moyenne(moyenne)
+
+
